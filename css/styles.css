@@ -297,27 +297,19 @@ icon-container .section-second {
 .section-second .list .item .card-desc {
   padding: 32px 0;
 }
-.section-second .list .item .card-desc .icon-container {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px; */
-}
-.icon-container .icon-list {
+
+.icon-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   list-style-type: none;
   padding: 0;
 }
-.icon-container .icon-list-item {
+ .icon-list-item {
   width: 40px;
   height: 40px;
 }
-.icon-container .icon-list-item .icon-list-item-link {
+ .icon-list-item .icon-list-item-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -326,13 +318,13 @@ icon-container .section-second {
   align-items: center;
   justify-content: center;
 }
-.icon-container .icon-list-item .icon-list-item-link:hover {
+.icon-list-item .icon-list-item-link:hover {
   background-color: #404bbf;
 }
-.icon-container .icon-list-item .icon-list-item-link:focus {
+.icon-list-item .icon-list-item-link:focus {
   background-color: #404bbf;
 }
-.icon-container .icon-list-item .icon-list-item-link .link-icon {
+.icon-list-item .icon-list-item-link .link-icon {
   fill: #f4f4fd;
 }
 .section-third {
